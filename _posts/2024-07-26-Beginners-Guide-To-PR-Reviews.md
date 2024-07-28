@@ -9,8 +9,6 @@ tags:
   - Git
   - Beginner's Guide
 ---
-# The Beginner's Guide to Reviewing Pull Requests
-
 This blog aims to provide a beginner's guide to reviewing a pull request. This guide is from the point of view of the reviewer and provides a step-by-step approach for how to review pull requests.
 
 <!--more-->
