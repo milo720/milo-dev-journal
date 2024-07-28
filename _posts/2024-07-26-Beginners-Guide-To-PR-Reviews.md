@@ -48,7 +48,7 @@ If you have met the prerequisites and identified a PR that you need to review, t
     - Is it a very small change?
 1. Check if it is failing any checks or if there are any checks you will need to look at, e.g., performance test results?
 
-![An image showing a PR with 84 checks, some failing](/milo-dev-journal/assets/Beginner-Guide-To-Reviewing-PR/Pull-Request-Checks.png)
+![An image showing a PR with 84 checks, some failing](/assets/Beginner-Guide-To-Reviewing-PR/Pull-Request-Checks.png)
 
 From this, you should be able to gauge the complexity and importance of the PR. This is important for deciding how you approach the rest of the PR.
 
@@ -58,7 +58,7 @@ The next step in reviewing the PR is to look at the changes in more depth and st
 
 #### A Very Small PR
 
-![An image showing a small GitHub PR](/milo-dev-journal/assets/Beginner-Guide-To-Reviewing-PR/One-Line-PR.png)
+![An image showing a small GitHub PR](/assets/Beginner-Guide-To-Reviewing-PR/One-Line-PR.png)
 
 These are typically very small changes, often one-liners or even just a couple of characters. These are usually bug fixes or config changes. With these, you do not typically have to spend a long time understanding the changes, but you will want to consider the following:
 
@@ -70,7 +70,7 @@ To answer these, you may want to pull down the code in your local environment an
 
 #### Medium PRs
 
-![An image showing a GitHub PR with 9 files changed](/milo-dev-journal/assets/Beginner-Guide-To-Reviewing-PR/Medium-Pr.png)
+![An image showing a GitHub PR with 9 files changed](/assets/Beginner-Guide-To-Reviewing-PR/Medium-Pr.png)
 
 These PRs involve more than trivial changes, usually spanning multiple files. These are typically larger bug fixes or parts of new functionality. With these types of changes, you will want to examine the details and understand the changes. To do this, I would advise the following:
 
@@ -92,11 +92,11 @@ If you encounter things you do not understand or need clarification on, it can b
 
 #### Large to Very Large PRs
 
-![A PR with 141 files changed, but it's a rename](/milo-dev-journal/assets/Beginner-Guide-To-Reviewing-PR/Large-Rename.png)
+![A PR with 141 files changed, but it's a rename](/assets/Beginner-Guide-To-Reviewing-PR/Large-Rename.png)
 
 These are PRs that impact a large number of files. Very large examples can affect hundreds to thousands of files. Before you start reviewing these changes, you may want to consider why they are so large. Is this the result of some kind of tool, or is it the merging of several pieces of work that have already been PR'd (e.g., merging a large completed feature)? The answer to this may affect your approach. For example, if a small number of actual changes have been made alongside a sweeping rename, you might request that the PR be split to remove the noise. If this is the merging of a branch with a combination of lots of already-reviewed code, you may want to review it at a higher level rather than delving into the details of code that has already been reviewed.
 
-![A picture of a large cherry-pick commit](/milo-dev-journal/assets/Beginner-Guide-To-Reviewing-PR/Large-Cherry-Pick-PR.png)
+![A picture of a large cherry-pick commit](/assets/Beginner-Guide-To-Reviewing-PR/Large-Cherry-Pick-PR.png)
 
 Apart from this, you can use similar techniques as with a medium PR, but you may wish to split particularly large ones into sections and make good notes so you don't get overwhelmed. You may also want to rely more heavily on tooling and perhaps go through the PR commit by commit to help cut through the noise.
 
@@ -156,7 +156,7 @@ Tools are your friend when reviewing. Even if your team does not have tools buil
 - AI, which can be used to summarize and even give its own views on code quality.
 - Linters, which can pick up most stylistic errors and many reliability errors.
 
-![An image of a Stryker mutation testing report highlighting areas of poor coverage.](/milo-dev-journal/assets/Beginner-Guide-To-Reviewing-PR/Stryker.png)
+![An image of a Stryker mutation testing report highlighting areas of poor coverage.](/assets/Beginner-Guide-To-Reviewing-PR/Stryker.png)
 
 ### It's a Conversation
 
