@@ -4,11 +4,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: "/assets/images/Journal.jpg"
-excerpt: - > 
-Ingredients
-1. A Byte of Coding advice
-1. A Bit of humorous anecdote
-1. A Heap of unsolicited advice
+excerpt: Take a Byte of coding advice, throw in a Bit of humorous anecdote and mix with heap of unsolicited advice.
 
 ---
 
