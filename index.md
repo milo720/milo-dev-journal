@@ -6,7 +6,7 @@ header:
   overlay_image: assets/images/journal.jpg
 intro: 
   - excerpt: ''
-  excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 ---
 
 {% include feature_row id="intro" type="center" %}
